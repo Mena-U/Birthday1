@@ -96,7 +96,7 @@ function playBirthday() {
         { freq: 440, duration: 1 },    // A
         { freq: 349, duration: 1 },    // F
         { freq: 330, duration: 1 },    // E
-        { freq: 294, duration: 4 },     // D
+        { freq: 294, duration: 2 },     // D
         { freq: 0, duration: 0.5 },     // Rest
         {  freq: 466, duration: 0.5 },  // A# (or Bb)
         { freq: 466, duration: 0.5 },  // A# (or Bb)

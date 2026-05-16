@@ -82,12 +82,28 @@ function playBirthday() {
         { freq: 262, duration: 1 },    // C
         { freq: 349, duration: 1 },    // F
         { freq: 330, duration: 2 },    // E
+        { freq: 0, duration: 0.5 },     // Rest
         { freq: 262, duration: 0.5 },  // C
         { freq: 262, duration: 0.5 },  // C
         { freq: 294, duration: 1 },    // D
         { freq: 262, duration: 1 },    // C
         { freq: 392, duration: 1 },    // G
         { freq: 349, duration: 2 },    // F
+        { freq: 0, duration: 0.5 },     // Rest
+        { freq: 262, duration: 0.5 },  // C
+        { freq: 262, duration: 0.5 },  // C
+        { freq: 523, duration: 1 },    // C (octave)
+        { freq: 440, duration: 1 },    // A
+        { freq: 349, duration: 1 },    // F
+        { freq: 330, duration: 1 },    // E
+        { freq: 294, duration: 4 },     // D
+        { freq: 0, duration: 0.5 },     // Rest
+        {  freq: 466, duration: 0.5 },  // A# (or Bb)
+        { freq: 466, duration: 0.5 },  // A# (or Bb)
+        { freq: 440, duration: 1 },    // A
+        { freq: 349, duration: 1 },    // F
+        { freq: 330, duration: 1 },    // E
+        { freq: 294, duration: 4 }     // D
     ];
     
     let time = audioContext.currentTime;

@@ -102,8 +102,8 @@ function playBirthday() {
         { freq: 466, duration: 0.5 },  // A# (or Bb)
         { freq: 440, duration: 1 },    // A
         { freq: 349, duration: 1 },    // F
-        { freq: 330, duration: 1 },    // E
-        { freq: 294, duration: 4 }     // D
+        { freq: 392, duration: 1 },    // G
+        { freq: 349, duration: 1 },    // F
     ];
     
     let time = audioContext.currentTime;
